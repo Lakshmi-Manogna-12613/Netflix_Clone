@@ -49,3 +49,13 @@ document.querySelectorAll('.faq-toggle').forEach(button => {
       }
     });
   });
+
+
+
+  // profile.html
+
+  document.querySelectorAll('.profile').forEach(profile => {
+    profile.addEventListener('click', () => {
+      window.location.href = 'broser.html';
+    });
+  });
